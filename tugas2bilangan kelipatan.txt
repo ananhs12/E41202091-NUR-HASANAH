@@ -1,0 +1,26 @@
+package tugas2minggu4bilangankelipatan;
+
+/**
+ *
+ * @author hp
+ */
+public class Tugas2minggu4bilangankelipatan {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    
+        int nilai = 1;
+        System.out.println("         Do__While");
+        System.out.println("Bilangan kelipatan 2 (1-100)");
+        System.out.println("============================");
+        do {
+            System.out.print("  " + nilai);
+            nilai = nilai * 2;
+        } while (nilai < 100);
+        System.out.println("");
+        // TODO code application logic here
+    }
+    
+}

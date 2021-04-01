@@ -1,0 +1,34 @@
+package tugas1minggu4;
+
+import java.util.Scanner;
+/**
+ *
+ * @author hp
+ */
+public class Tugas1MINGGU4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println(" Menampilkan Bilangan Genap dari Kecil ke Besar ");
+        System.out.println("================================================");
+        
+        // Memasukkan Batas Bilangan
+        Scanner batas = new Scanner(System.in);
+        System.out.print("Masukkan batas awal bilangan : ");
+        int batasawal = batas.nextInt();
+        System.out.print("Masukkan batas akhir bilangan : ");
+        int batasakhir = batas.nextInt();
+        
+        // Hasil Output Bilangan genap
+        System.out.print("Deretan bilangan genap : ");
+        for (int i = batasawal; i <= batasakhir; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+       
+    }
+    
+}
